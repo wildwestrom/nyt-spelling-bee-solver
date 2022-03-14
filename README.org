@@ -1,0 +1,36 @@
+* New York Times Spelling Bee Solver
+Solves the puzzle!
+
+How does it work? By using some wordlists and regex.
+All packaged up into a nice command line tool.
+
+** Building
+Compile with this command:
+#+begin_src sh
+clojure -T:build uber
+#+end_src
+
+** Usage
+Run the program via command line with this command.
+#+begin_src sh
+java -jar bee-solver*.jar
+#+end_src
+
+** License
+The word lists I used were found on various places on the net, I can't remember each one. I do not own these word lists. Otherwise...
+
+Copyright © 2022 Christian Westrom
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program. If not, see <https://www.gnu.org/licenses/>.
+
+[[https://www.gnu.org/graphics/gplv3-or-later.png]]
