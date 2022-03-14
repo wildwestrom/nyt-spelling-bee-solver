@@ -1,4 +1,5 @@
 (ns wildwestrom.bee-solver.core
+  (:gen-class)
   (:require [clojure.java.io :as io]
             [clojure.set :as set]
             [clojure.string :as str]
