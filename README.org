@@ -1,5 +1,6 @@
 * New York Times Spelling Bee Solver
 Solves the puzzle!
+https://www.nytimes.com/puzzles/spelling-bee
 
 How does it work? By using some wordlists and regex.
 All packaged up into a nice command line tool.
