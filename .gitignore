@@ -3,3 +3,5 @@
 /.clj-kondo/
 /.cpcache/
 /target/
+*~undo-tree~*
+/.calva/
